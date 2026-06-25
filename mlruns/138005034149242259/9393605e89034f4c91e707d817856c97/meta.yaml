@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/hp/Desktop/github/customer-churn-predictor/mlruns/138005034149242259/9393605e89034f4c91e707d817856c97/artifacts
+end_time: 1782386935398
+entry_point_name: ''
+experiment_id: '138005034149242259'
+lifecycle_stage: active
+run_id: 9393605e89034f4c91e707d817856c97
+run_name: XGBoost_Tuned
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782386885085
+status: 3
+tags: []
+user_id: hp

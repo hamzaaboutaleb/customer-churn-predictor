@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/hp/Desktop/github/customer-churn-predictor/mlruns/138005034149242259/models/m-d9d336ce3e474b5d8bf2294b3ce9eba1/artifacts
+creation_timestamp: 1782386547537
+experiment_id: '138005034149242259'
+last_updated_timestamp: 1782386547833
+model_id: m-d9d336ce3e474b5d8bf2294b3ce9eba1
+model_type: null
+name: model
+source_run_id: d9e64bf2bcf04ed2a021f02598125585
+status: 3
+status_message: null

@@ -1,0 +1,71 @@
+artifact_path: file:///C:/Users/hp/Desktop/github/customer-churn-predictor/mlruns/138005034149242259/models/m-e9d922fa8cef48afbf0c2c52e792166b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-e9d922fa8cef48afbf0c2c52e792166b
+model_size_bytes: 60116066
+model_uuid: m-e9d922fa8cef48afbf0c2c52e792166b
+prompts: null
+run_id: ea7aa610e67346eeb8a48741ecdbc32a
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "gender", "required": true}, {"type": "long",
+    "name": "SeniorCitizen", "required": true}, {"type": "long", "name": "Partner",
+    "required": true}, {"type": "long", "name": "Dependents", "required": true}, {"type":
+    "long", "name": "tenure", "required": true}, {"type": "long", "name": "PhoneService",
+    "required": true}, {"type": "long", "name": "PaperlessBilling", "required": true},
+    {"type": "double", "name": "MonthlyCharges", "required": true}, {"type": "double",
+    "name": "TotalCharges", "required": true}, {"type": "long", "name": "TenureGroup",
+    "required": true}, {"type": "long", "name": "TotalServices", "required": true},
+    {"type": "double", "name": "AvgMonthlyCharge", "required": true}, {"type": "double",
+    "name": "ChargeRatio", "required": true}, {"type": "long", "name": "IsSeniorWithPartner",
+    "required": true}, {"type": "long", "name": "MultipleLines_No", "required": true},
+    {"type": "long", "name": "MultipleLines_No phone service", "required": true},
+    {"type": "long", "name": "MultipleLines_Yes", "required": true}, {"type": "long",
+    "name": "InternetService_DSL", "required": true}, {"type": "long", "name": "InternetService_Fiber
+    optic", "required": true}, {"type": "long", "name": "InternetService_No", "required":
+    true}, {"type": "long", "name": "OnlineSecurity_No", "required": true}, {"type":
+    "long", "name": "OnlineSecurity_No internet service", "required": true}, {"type":
+    "long", "name": "OnlineSecurity_Yes", "required": true}, {"type": "long", "name":
+    "OnlineBackup_No", "required": true}, {"type": "long", "name": "OnlineBackup_No
+    internet service", "required": true}, {"type": "long", "name": "OnlineBackup_Yes",
+    "required": true}, {"type": "long", "name": "DeviceProtection_No", "required":
+    true}, {"type": "long", "name": "DeviceProtection_No internet service", "required":
+    true}, {"type": "long", "name": "DeviceProtection_Yes", "required": true}, {"type":
+    "long", "name": "TechSupport_No", "required": true}, {"type": "long", "name":
+    "TechSupport_No internet service", "required": true}, {"type": "long", "name":
+    "TechSupport_Yes", "required": true}, {"type": "long", "name": "StreamingTV_No",
+    "required": true}, {"type": "long", "name": "StreamingTV_No internet service",
+    "required": true}, {"type": "long", "name": "StreamingTV_Yes", "required": true},
+    {"type": "long", "name": "StreamingMovies_No", "required": true}, {"type": "long",
+    "name": "StreamingMovies_No internet service", "required": true}, {"type": "long",
+    "name": "StreamingMovies_Yes", "required": true}, {"type": "long", "name": "Contract_Month-to-month",
+    "required": true}, {"type": "long", "name": "Contract_One year", "required": true},
+    {"type": "long", "name": "Contract_Two year", "required": true}, {"type": "long",
+    "name": "PaymentMethod_Bank transfer (automatic)", "required": true}, {"type":
+    "long", "name": "PaymentMethod_Credit card (automatic)", "required": true}, {"type":
+    "long", "name": "PaymentMethod_Electronic check", "required": true}, {"type":
+    "long", "name": "PaymentMethod_Mailed check", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    2]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-25 11:18:24.318138'

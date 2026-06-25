@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/hp/Desktop/github/customer-churn-predictor/mlruns/138005034149242259/d9e64bf2bcf04ed2a021f02598125585/artifacts
+end_time: 1782386547864
+entry_point_name: ''
+experiment_id: '138005034149242259'
+lifecycle_stage: active
+run_id: d9e64bf2bcf04ed2a021f02598125585
+run_name: LightGBM_Default
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782386521914
+status: 4
+tags: []
+user_id: hp

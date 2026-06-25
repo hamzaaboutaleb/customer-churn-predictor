@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/hp/Desktop/github/customer-churn-predictor/mlruns/138005034149242259/ea7aa610e67346eeb8a48741ecdbc32a/artifacts
+end_time: 1782386347758
+entry_point_name: ''
+experiment_id: '138005034149242259'
+lifecycle_stage: active
+run_id: ea7aa610e67346eeb8a48741ecdbc32a
+run_name: RandomForest_Default
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782386291014
+status: 3
+tags: []
+user_id: hp

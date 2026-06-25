@@ -1,0 +1,10 @@
+aliases: {}
+creation_timestamp: 1782386943084
+deployment_job_id: null
+deployment_job_state: null
+description: 'XGBoost classifier tuned with Optuna TPE (100 trials) + GridSearchCV
+  on Telco Customer Churn dataset. Test AUC-ROC: 0.8487. CV AUC-ROC (5-fold): 0.8503.
+  Decision threshold: 0.6.'
+last_updated_timestamp: 1782386949993
+name: TelcoChurn_XGBoost_Best
+workspace: default

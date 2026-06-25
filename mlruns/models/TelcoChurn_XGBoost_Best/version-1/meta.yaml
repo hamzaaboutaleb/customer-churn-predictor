@@ -1,0 +1,16 @@
+creation_timestamp: 1782386943289
+current_stage: Production
+deployment_job_state: null
+description: Best model — Optuna + GridSearch. AUC=0.8487
+last_updated_timestamp: 1782386949993
+model_id: m-72923189e89542139e6e0a637ac51205
+name: TelcoChurn_XGBoost_Best
+run_id: 9393605e89034f4c91e707d817856c97
+run_link: null
+source: models:/m-72923189e89542139e6e0a637ac51205
+status: READY
+status_message: null
+storage_location: file:///C:/Users/hp/Desktop/github/customer-churn-predictor/mlruns/138005034149242259/models/m-72923189e89542139e6e0a637ac51205/artifacts
+user_id: null
+version: 1
+workspace: default
