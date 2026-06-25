@@ -1,0 +1,15 @@
+{
+  "min_child_weight": 2,
+  "subsample": 0.5162206527439951,
+  "colsample_bytree": 0.56297545176929,
+  "colsample_bylevel": 0.5708910333488739,
+  "gamma": 4.289432657285328,
+  "reg_alpha": 0.2119176290623789,
+  "reg_lambda": 0.7899546315651335,
+  "scale_pos_weight": 2.768561872909699,
+  "eval_metric": "logloss",
+  "random_state": 42,
+  "learning_rate": 0.0084,
+  "max_depth": 3,
+  "n_estimators": 600
+}

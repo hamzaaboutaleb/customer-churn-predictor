@@ -1,0 +1,9 @@
+artifact_location: file:///C:/Users/hp/Desktop/github/customer-churn-predictor/mlruns/138005034149242259
+creation_time: 1782306454397
+effective_trace_archival_retention: null
+experiment_id: '138005034149242259'
+last_update_time: 1782306454397
+lifecycle_stage: active
+name: Telco_Churn_Experiments
+trace_location: null
+workspace: default
